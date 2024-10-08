@@ -1,0 +1,45 @@
+html {
+  background-color: orange;
+}
+body {
+  background: white;
+  width: 600px;
+  margin: 0px auto;
+  padding: 20px 50px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+td {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+td > p {
+  font-size: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+img:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+#header {
+  border: 2px solid orange;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: rgb(219, 144, 4);
+  font-family: "Noto Serif", serif;
+}
